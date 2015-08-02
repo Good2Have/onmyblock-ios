@@ -25,11 +25,11 @@ class Help: Object {
     sessionManager().POST("help/student", parameters: [
       "help_student": dictionary
     ], success: { (task: NSURLSessionDataTask!, responseObject: AnyObject!) in
-      if delegate? != nil {
+      if delegate != nil {
         delegate?.createHelpForStudentSucceeded!()
       }
     }, failure: { (task: NSURLSessionDataTask!, error: NSError!) in
-      if delegate? != nil {
+      if delegate != nil {
         delegate?.createHelpForStudentFailed!(error: error!)
       }
     })

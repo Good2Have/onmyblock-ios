@@ -36,18 +36,18 @@ class SchoolSearchManager: SearchManager {
           "field": "suggest",
           "size":  "20"
         ],
-        "text": dictionary["query"] as NSString
+        "text": dictionary["query"] as! NSString
       ]
     ], success: { (operation: AFHTTPRequestOperation!, 
       responseObject: AnyObject!) in
 
-      if delegate? != nil {
+      if delegate != nil {
         // hits = response.schoolsuggest[0].options
         var array: AnyObject
         let schoolsuggest: AnyObject? = responseObject?["schoolsuggest"]
-        if schoolsuggest? != nil {
-          array = Array(schoolsuggest as NSArray)
-          array = Array(array[0]["options"] as NSArray)
+        if schoolsuggest != nil {
+          array = Array(schoolsuggest as! NSArray)
+          array = Array(array[0]["options"] as! NSArray)
         } else {
           array = [AnyObject]()
         }
@@ -65,7 +65,7 @@ class SchoolSearchManager: SearchManager {
         delegate?.searchSucceeded(responseObject: array)
       }
     }, failure: { (operation: AFHTTPRequestOperation!, error: NSError!) in
-      if delegate? != nil {
+      if delegate != nil {
         delegate?.searchFailed(error: error!)
       }
     })

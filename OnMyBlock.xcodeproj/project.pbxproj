@@ -42,10 +42,6 @@
 		AB0280641843B2160081B30F /* OMBIntroAuctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0280631843B2160081B30F /* OMBIntroAuctionView.m */; };
 		AB02807F1843F2C30081B30F /* OMBBedroomView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB02807E1843F2C30081B30F /* OMBBedroomView.m */; };
 		AB034B151837D3DC00811074 /* OMBGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB034B141837D3DC00811074 /* OMBGradientView.m */; };
-		AB0355551A0060C500655773 /* SearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDAD22D19DDFB43000A3E57 /* SearchManager.swift */; };
-		AB0355561A00615700655773 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEB2BFD19DC7444009F70F0 /* Object.swift */; };
-		AB0355571A00632400655773 /* SchoolSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDAD22F19DDFCAE000A3E57 /* SchoolSearchManager.swift */; };
-		AB0355591A00635D00655773 /* SchoolSearchManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0355581A00635D00655773 /* SchoolSearchManagerTests.swift */; };
 		AB0AD725199683920025D339 /* OMBGroup+Users.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0AD724199683920025D339 /* OMBGroup+Users.m */; };
 		AB0AD7291996DCFC0025D339 /* OMBMenuBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0AD7281996DCFC0025D339 /* OMBMenuBarButtonItem.m */; };
 		AB0BC54718A1D4570067BFF7 /* OMBAlertViewBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0BC54618A1D4570067BFF7 /* OMBAlertViewBlur.m */; };
@@ -124,7 +120,6 @@
 		AB57EA21186BB6D7001682DB /* OMBMessageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB57EA20186BB6D7001682DB /* OMBMessageCollectionViewCell.m */; };
 		AB57EA27186C788B001682DB /* OMBMessageInputToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = AB57EA26186C788B001682DB /* OMBMessageInputToolbar.m */; };
 		AB57EA2A186CA065001682DB /* OMBTermsOfServiceStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AB57EA29186CA065001682DB /* OMBTermsOfServiceStore.m */; };
-		AB59996D1A00574900E49641 /* SearchManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59996C1A00574900E49641 /* SearchManagerTests.swift */; };
 		AB5B49CE1832D64000ED96DC /* OMBIntroductionView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5B49CD1832D64000ED96DC /* OMBIntroductionView.m */; };
 		AB5B49D51833C9A400ED96DC /* OMBResidenceGoogleStaticImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5B49D41833C9A400ED96DC /* OMBResidenceGoogleStaticImageDownloader.m */; };
 		AB5DD32C18CE011500237AFC /* OMBAmenityStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DD32B18CE011500237AFC /* OMBAmenityStore.m */; };
@@ -282,11 +277,6 @@
 		AB802EA818109E5200E04D11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB802EA618109E5200E04D11 /* InfoPlist.strings */; };
 		AB802EAA18109E5200E04D11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB802EA918109E5200E04D11 /* main.m */; };
 		AB802EB018109E5200E04D11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB802EAF18109E5200E04D11 /* Images.xcassets */; };
-		AB802EB718109E5200E04D11 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB802EB618109E5200E04D11 /* XCTest.framework */; };
-		AB802EB818109E5200E04D11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB802E9D18109E5200E04D11 /* Foundation.framework */; };
-		AB802EB918109E5200E04D11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB802EA118109E5200E04D11 /* UIKit.framework */; };
-		AB802EC118109E5200E04D11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB802EBF18109E5200E04D11 /* InfoPlist.strings */; };
-		AB802EC318109E5200E04D11 /* OnMyBlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB802EC218109E5200E04D11 /* OnMyBlockTests.m */; };
 		AB8642BC18AB50A500995571 /* OMBInformationStepsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8642BB18AB50A500995571 /* OMBInformationStepsCell.m */; };
 		AB8642C218AB5FF400995571 /* OMBInformationStepsFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8642C118AB5FF400995571 /* OMBInformationStepsFlowLayout.m */; };
 		AB8642C518ABE66200995571 /* OMBHelpPopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8642C418ABE66200995571 /* OMBHelpPopUpView.m */; };
@@ -300,7 +290,6 @@
 		AB8C8C1F1815969700A1B087 /* OMBResidenceStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8C8C1E1815969700A1B087 /* OMBResidenceStore.m */; };
 		AB8C8C22181597F900A1B087 /* OMBResidence.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8C8C21181597F900A1B087 /* OMBResidence.m */; };
 		AB8C8C281815A62F00A1B087 /* OMBResidenceCoverPhotoDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8C8C271815A62F00A1B087 /* OMBResidenceCoverPhotoDownloader.m */; };
-		AB8C8C2A1815C31000A1B087 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8C8C291815C31000A1B087 /* Accelerate.framework */; };
 		AB9012A018528A55003153A2 /* OMBPreviousRentalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB90129F18528A55003153A2 /* OMBPreviousRentalCell.m */; };
 		AB9012A31852AEF0003153A2 /* OMBRenterApplicationAddModelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9012A21852AEF0003153A2 /* OMBRenterApplicationAddModelCell.m */; };
 		AB9012A618568206003153A2 /* OMBPreviousRentalCreateConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9012A518568206003153A2 /* OMBPreviousRentalCreateConnection.m */; };
@@ -539,16 +528,6 @@
 		DEC1C8C5196B6783003184AA /* OMBTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC1C8C4196B6783003184AA /* OMBTextFieldCell.m */; };
 		DEE80BAD19F015DE00C1D50C /* OMBEmptyResultsOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE80BAC19F015DE00C1D50C /* OMBEmptyResultsOverlayView.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		AB802EBA18109E5200E04D11 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AB802E9218109E5200E04D11 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AB802E9918109E5200E04D11;
-			remoteInfo = OnMyBlock;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		ABEB2C0919DC7852009F70F0 /* Copy Frameworks */ = {
@@ -1083,7 +1062,6 @@
 		AB802EA918109E5200E04D11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB802EAB18109E5200E04D11 /* OnMyBlock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OnMyBlock-Prefix.pch"; sourceTree = "<group>"; };
 		AB802EAF18109E5200E04D11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		AB802EB518109E5200E04D11 /* OnMyBlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnMyBlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB802EB618109E5200E04D11 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AB802EBE18109E5200E04D11 /* OnMyBlockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OnMyBlockTests-Info.plist"; sourceTree = "<group>"; };
 		AB802EC018109E5200E04D11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -1595,17 +1573,6 @@
 				ABB022C718248D9800F98544 /* SystemConfiguration.framework in Frameworks */,
 				AB802EA218109E5200E04D11 /* UIKit.framework in Frameworks */,
 				D373FBF942A741AC8A72F0DF /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB802EB218109E5200E04D11 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB8C8C2A1815C31000A1B087 /* Accelerate.framework in Frameworks */,
-				AB802EB718109E5200E04D11 /* XCTest.framework in Frameworks */,
-				AB802EB918109E5200E04D11 /* UIKit.framework in Frameworks */,
-				AB802EB818109E5200E04D11 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2240,7 +2207,6 @@
 			isa = PBXGroup;
 			children = (
 				AB802E9A18109E5200E04D11 /* OnMyBlock.app */,
-				AB802EB518109E5200E04D11 /* OnMyBlockTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3318,24 +3284,6 @@
 			productReference = AB802E9A18109E5200E04D11 /* OnMyBlock.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AB802EB418109E5200E04D11 /* OnMyBlockTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AB802EC918109E5200E04D11 /* Build configuration list for PBXNativeTarget "OnMyBlockTests" */;
-			buildPhases = (
-				AB802EB118109E5200E04D11 /* Sources */,
-				AB802EB218109E5200E04D11 /* Frameworks */,
-				AB802EB318109E5200E04D11 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AB802EBB18109E5200E04D11 /* PBXTargetDependency */,
-			);
-			name = OnMyBlockTests;
-			productName = OnMyBlockTests;
-			productReference = AB802EB518109E5200E04D11 /* OnMyBlockTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -3354,9 +3302,6 @@
 							};
 						};
 					};
-					AB802EB418109E5200E04D11 = {
-						TestTargetID = AB802E9918109E5200E04D11;
-					};
 				};
 			};
 			buildConfigurationList = AB802E9518109E5200E04D11 /* Build configuration list for PBXProject "OnMyBlock" */;
@@ -3373,7 +3318,6 @@
 			projectRoot = "";
 			targets = (
 				AB802E9918109E5200E04D11 /* OnMyBlock */,
-				AB802EB418109E5200E04D11 /* OnMyBlockTests */,
 			);
 		};
 /* End PBXProject section */
@@ -3418,14 +3362,6 @@
 				ABB9115B1897F7DE0046611F /* intro_still_image_slide_7_background@2x.jpg in Resources */,
 				AB18CF6218E0904F0022ABF1 /* lease_agreement.pdf in Resources */,
 				AB756ABC185A24F5001AF572 /* intro_still_image_slide_3_background@2x.jpg in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB802EB318109E5200E04D11 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB802EC118109E5200E04D11 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3948,28 +3884,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB802EB118109E5200E04D11 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB0355551A0060C500655773 /* SearchManager.swift in Sources */,
-				AB0355571A00632400655773 /* SchoolSearchManager.swift in Sources */,
-				AB802EC318109E5200E04D11 /* OnMyBlockTests.m in Sources */,
-				AB0355591A00635D00655773 /* SchoolSearchManagerTests.swift in Sources */,
-				AB0355561A00615700655773 /* Object.swift in Sources */,
-				AB59996D1A00574900E49641 /* SearchManagerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AB802EBB18109E5200E04D11 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AB802E9918109E5200E04D11 /* OnMyBlock */;
-			targetProxy = AB802EBA18109E5200E04D11 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AB802EA618109E5200E04D11 /* InfoPlist.strings */ = {
@@ -4139,67 +4054,6 @@
 			};
 			name = Release;
 		};
-		AB802ECA18109E5200E04D11 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 087253DC80A3480BCA2E2099 /* Pods.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OnMyBlock.app/OnMyBlock";
-				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"Pods/NewRelicAgent/**",
-					"Pods/SDWebImage/**",
-					"Pods/Mixpanel/**",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OnMyBlock/OnMyBlock-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "OnMyBlockTests/OnMyBlockTests-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "OnMyBlockTests/OnMyBlockTests-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				USER_HEADER_SEARCH_PATHS = "Pod/BuildHeaders/**";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		AB802ECB18109E5200E04D11 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A0B602977704B272C60F1CC /* Pods.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OnMyBlock.app/OnMyBlock";
-				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"Pods/NewRelicAgent/**",
-					"Pods/SDWebImage/**",
-					"Pods/Mixpanel/**",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OnMyBlock/OnMyBlock-Prefix.pch";
-				INFOPLIST_FILE = "OnMyBlockTests/OnMyBlockTests-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "OnMyBlockTests/OnMyBlockTests-Bridging-Header.h";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				USER_HEADER_SEARCH_PATHS = "Pod/BuildHeaders/**";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -4217,15 +4071,6 @@
 			buildConfigurations = (
 				AB802EC718109E5200E04D11 /* Debug */,
 				AB802EC818109E5200E04D11 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AB802EC918109E5200E04D11 /* Build configuration list for PBXNativeTarget "OnMyBlockTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB802ECA18109E5200E04D11 /* Debug */,
-				AB802ECB18109E5200E04D11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
